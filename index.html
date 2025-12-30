@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorteio de Cores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Sorteio de Cores 🎨</h1>
+  <p>Informe os nomes, escolha as opções e deixe o sorteio acontecer</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Nomes</h2>
+      <textarea id="names" placeholder="Digite um nome por linha ou separe com virgula"></textarea>
+    </div>
+
+    <div class="card">
+      <h2>Configurações</h2>
+      <div class="options">
+        <label class="switch">
+          <input type="checkbox" id="modeSwitch" />
+          <span class="slider"></span>
+        </label>
+        <span id="modeLabel">Cores aleatórias</span>
+      </div>
+
+      <div class="options" id="customColors" style="display:none"></div>
+      <button id="drawBtn" onclick="drawColors()">Sortear cores</button>
+      <div class="countdown" id="countdown"></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:24px">
+    <h2>Resultado</h2>
+    <div class="results" id="results"></div>
+  </div>
+
+  <footer>Protótipo web • HTML, CSS e JavaScript puro</footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
