@@ -19,9 +19,19 @@ Projeto web interativo para **sorteio de cores entre participantes**, com foco e
 
 ---
 
+## 📚 Objetivos do Projeto
+
+🔹Site criado para diversão e entretenimento utilizando apenas **Javascript**, surgiu de uma brincadeira entre familia, e transformei em desafio para por em prática a lógica de programação. 
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 Projeto desenvolvido **sem frameworks**, utilizando apenas tecnologias web padrão:
+
+![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
+![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 
 - **HTML5**  
   Estrutura semântica da aplicação
@@ -53,6 +63,7 @@ Projeto desenvolvido **sem frameworks**, utilizando apenas tecnologias web padr�
 ## 📂 Estrutura do Projeto
 
 ├── index.html # HTML + CSS + JavaScript
+
 └── README.md # Documentação do projeto
 
 
@@ -78,6 +89,9 @@ Projeto desenvolvido **sem frameworks**, utilizando apenas tecnologias web padr�
 ---
 
 ## 👨‍💻 Autor
+
+Projeto desenvolvido por **[Felipe Costa de Jesus]** — [LinkedIn](https://www.linkedin.com/in/Felipe-Cjesus)  
+Contato: felipecosta.developer@gmail.com
 
 Projeto desenvolvido como **protótipo web interativo**, com foco em UX/UI moderno e JavaScript puro.
 
